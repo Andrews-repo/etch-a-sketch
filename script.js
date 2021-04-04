@@ -39,7 +39,7 @@ function changeSize() {
             changeSize();
         } else {
             clearGrid();
-            setGridSize();
+            setGridSize(newSize);
             fillGrid(newSize);
         }
     }
