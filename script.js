@@ -46,7 +46,7 @@ function changeSize() {
 }
 
 function clearGrid() {
-    const gridArray = Array.from(gridContainer.chldNodes);
+    const gridArray = Array.from(gridContainer.childNodes);
     gridArray.forEach((element) => {
         gridContainer.removeChild(element);
     });
