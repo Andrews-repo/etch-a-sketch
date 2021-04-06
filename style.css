@@ -2,7 +2,7 @@
     --title: #333;
     --background: #ededed;
     --button-border: #333;
-    --button: #555;
+    --button: green;
     --button-hover: #444;
     --button-active: #333;
     --border: #222;
@@ -23,7 +23,7 @@
   }
   
   body {
-    background-color: var(--background);
+    background-color: deepskyblue;
     font-size: 1.6rem;
     text-align: center;
   }

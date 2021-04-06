@@ -35,7 +35,7 @@ function changeSize() {
   if (newSize !== null) {
     newSize = parseInt(newSize);
     if (newSize < 1 || newSize > 100 || Number.isNaN(newSize)) {
-      alert("Enter a number from 1-100);
+      alert("Enter a number from 1-100");
       changeSize();
     } else {
       clearGrid();
